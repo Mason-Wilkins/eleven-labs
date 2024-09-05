@@ -1,8 +1,11 @@
 from elevenlabs import VoiceSettings
 from elevenlabs.client import ElevenLabs
+import os
+
+ELEVEN_LABS_API_KEY = os.environ["ELEVEN_LABS_API_KEY"]
 
 client = ElevenLabs(
-    api_key="YOUR_API_KEY",
+    api_key=ELEVEN_LABS_API_KEY,
 )
 client.text_to_speech.convert(
     voice_id="pMsXgVXv3BLzUgSXRplE",
