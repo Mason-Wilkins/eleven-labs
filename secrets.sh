@@ -1,0 +1,1 @@
+export ELEVEN_LABS_API_KEY="sk_84f4e42c694b7fa9e07fa7fa6a89b338b495ec332bcc5879"
